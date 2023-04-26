@@ -1,0 +1,22 @@
+
+!help displays a helpful summary of commands
+
+!ping replies pong
+
+!lorem produces lorem ipsum words
+
+!virus gives number of new cases in Utah County
+
+!dadjoke tells a random dad joke
+
+!chuck tells a random Chuck Norris joke
+
+!die kills your bot
+
+!text sends a text message to someone's phone
+
+!email sends email
+
+!weather gives local weather blurb
+
+!nba gives a list of nba games today

@@ -1,21 +1,27 @@
 {
-  "name": "bot",
-  "version": "1.0.0",
-  "description": "",
-  "main": "bot.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node bot.js",
-    "devStart": "nodemon bot.js"
-  },
-  "keywords": [],
-  "author": "Tanner Hancock",
-  "license": "ISC",
-  "dependencies": {
-    "discord.js": "^12.5.1",
-    "dotenv": "^16.0.3"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.22"
-  }
+    "name": "bot",
+    "version": "1.0.0",
+    "description": "",
+    "main": "bot.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node bot.js",
+        "devStart": "nodemon bot.js"
+    },
+    "keywords": [],
+    "author": "Tanner Hancock",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^1.3.6",
+        "discord.js": "^12.5.1",
+        "dotenv": "^16.0.3",
+        "lorem-ipsum": "^2.0.8",
+        "node-fetch": "^2.6.9",
+        "nodemailer": "^6.9.1",
+        "twilio": "^4.10.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.22",
+        "prettier": "2.8.8"
+    }
 }
